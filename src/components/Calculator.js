@@ -48,6 +48,20 @@ class Calculator extends Component {
     return (
         <div >
           <h1 className="calc">Price Calculator</h1>
+          <h4>
+              <div>
+                <div className='inline'>
+                </div>
+                <div className='inline spec-div'>
+                    Penguin Ears Units per Carton = 20
+                </div>
+                <div className='inline spec-div'>
+                Horseshoe Units per Carton = 5
+                </div>
+              </div>
+              <div className='clearBoth'></div>
+              
+          </h4>
           <form onSubmit={this.handleSubmit}>
               <div>
                 <div>

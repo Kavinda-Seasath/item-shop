@@ -58,3 +58,18 @@ h1{
     color: white;
     width: 100%;
 }
+
+.btn-st{
+    background-color: #f44336;
+}
+
+div.inline {
+     float:left;
+     width: 30%;
+ }
+.clearBoth { clear:both; }
+
+.spec-div{
+    background-color: rgb(141, 127, 127);
+    color: white;
+}

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Table.css'
+import './PriceList.css'
 import PriceCalculationService from '../services/PriceCalculatorService';
 
 
