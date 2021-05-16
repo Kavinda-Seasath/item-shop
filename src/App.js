@@ -3,7 +3,7 @@ import './App.css';
 import PriceList from './components/PriceList.js';
 import Calculator from './components/Calculator.js';
 import Header from './components/Header';
-import {Route, Link} from 'react-router-dom';
+import {Route} from 'react-router-dom';
 import NavBar from './components/NavBar'
 
 class App extends Component {

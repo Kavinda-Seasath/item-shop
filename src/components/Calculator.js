@@ -64,7 +64,7 @@ class Calculator extends Component {
               </div>
           </form>
           <label>Full Cost</label>
-          <input type="text" name = "cost" value={this.state.fullCost}/>
+          <input type="text" name = "cost" value={this.state.fullCost} readOnly/>
         </div>
     );
   }
