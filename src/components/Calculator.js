@@ -66,11 +66,11 @@ class Calculator extends Component {
               <div>
                 <div>
                 <label>Penguin Ears</label>
-                <input type="text" name="penguinUnits" value={this.state.penguinUnits} onChange={this.changePenguinUnits}/>
+                <input type="number" min="0" name="penguinUnits" value={this.state.penguinUnits} onChange={this.changePenguinUnits}/>
                 </div>
                 <div>
                 <label>Horseshoes</label>
-                <input type="text" name="horseshoeUnits" value={this.state.horseshoeUnits} onChange={this.changeHorseshoeUnits}/>
+                <input type="number" min="0" name="horseshoeUnits" value={this.state.horseshoeUnits} onChange={this.changeHorseshoeUnits}/>
                 </div>
                 <div>
                     <button type="submit">Calculate Cost</button>
